@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=OPEN CASHDRAWER
+Icon=/home/kioskoperator/cash_drawer/
+Exec=/home/kioskoperator/cash_drawer/cd_open.sh
