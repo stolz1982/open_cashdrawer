@@ -1,7 +1,7 @@
 #!/bin/bash
 #applied to ubuntu 16.04
 KO="kioskoperator"
-SCRIPT_FOLDER="/home/kioskoperator/cash_drawer"
+SCRIPT_FOLDER="/home/kioskoperator/open_cashdrawer"
 FOLDER="/usr/share/applications"
 FILENAME="open_cashdrawer.desktop"
 /bin/rm $FOLDER/$FILENAME
