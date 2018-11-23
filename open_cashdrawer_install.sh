@@ -5,6 +5,7 @@ SCRIPT_FOLDER="/home/kioskoperator/open_cashdrawer"
 FOLDER="/usr/share/applications"
 FILENAME="open_cashdrawer.desktop"
 /bin/rm $FOLDER/$FILENAME
+/bin/chmod +x $SCRIPT_FOLDER/open_cashdrawer.sh
 /usr/bin/touch $FOLDER/$FILENAME
 /bin/chown -R $KO:$KO $SCRIPT_FOLDER 
 echo "[Desktop Entry]" >> $FOLDER/$FILENAME
